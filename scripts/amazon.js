@@ -80,7 +80,6 @@ document.querySelectorAll('.js-add-to-cart')
         cartQnty += item.quantity;
       });
 
-      document.querySelector('.js-cart-qnty').innerHTML = cartQnty;
-    
+      document.querySelector('.js-cart-qnty').innerHTML = cartQnty;    
     });
   });
